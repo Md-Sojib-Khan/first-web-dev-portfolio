@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/7de0ae6585.js" crossorigin="anonymous"></script>
 </head>
 <body class="open-sans-normal">
     <header class="bg-secendary hero">
@@ -25,8 +26,8 @@
                 <h1 class="banner-title dark-1">Mary Hardy</h1>
                 <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
                 <div>
-                    <button class="btn-primary download-cv">Download CV</button>
-                    <button class="btn-primary">Contact</button>
+                    <button class="btn-primary download-cv"><i class="fa-solid fa-download"></i>  Download CV</button>
+                    <button class="btn-primary"><i class="fa-solid fa-phone"></i>  Contact</button>
                 </div>
             </div>
             <div>
@@ -135,11 +136,26 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-primary download-cv">Download CV</button>
+            <div class="btn-download">
+                <button class="btn-primary"><i class="fa-solid fa-download"></i>  Download CV</button>
+            </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-secendary footer-conteinar">
+        <div>
+            <h3 class="Connect-title">Lets Connect</h3>
+            <p class="resume-dec">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <img src="images/icons/facebook.png" alt="">
+            <img src="images/icons/twitter.png" alt="">
+            <img src="images/icons/insta.png" alt="">
+        </div>
+        <div>
+            <h3 class="Connect-title">Let’s Message me</h3>
+            <input type="text" placeholder="Your name" name="Your name" id="">
+            <input type="email" placeholder="Your email" name="Your email" id="">
+            <textarea class="massage" name="Massage" placeholder="Massage" id="" cols="30" rows="10"></textarea>
+            <div><button class="btn-primary" type="submit">submit</button></div>
+        </div>
     </footer>
 </body>
 </html>
